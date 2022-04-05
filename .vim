@@ -1,1 +1,0 @@
-/home/josuerom/.vim/
