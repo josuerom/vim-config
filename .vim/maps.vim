@@ -30,12 +30,12 @@ nmap <C-t> :call OpenTerminal()<CR> <Esc> :resize 13<CR>
 nmap <Leader>t :split<CR> :terminal zsh<CR> :resize 13<CR>
 
 " acceso rápido a archivos de configuración global
-nmap <Leader>¿ :e ~/.vim/maps.vim<CR>
-nmap <Leader>' :e ~/.vim/plugins-config.vim<CR>
-nmap <Leader>0 :e ~/.vim/.config/plugins.vim<CR>
+nmap <Leader>¿ :e ~/vim-config/.vim/maps.vim<CR>
+nmap <Leader>' :e ~/vim-config/.vim/plugins-config.vim<CR>
+nmap <Leader>0 :e ~/vim-config/.vim/.config/plugins.vim<CR>
 
 " eliminar todos los espacios vacíos que hayan en el archivo con <F1>
-"nmap <F1> :g/^\s\+$/s/\s\+//<CR>
+nnoremap <F1> :%s/\s\+$//e<CR>
 " reinicia neovim con <F2>
 nmap <F2> :so %<CR>
 " abre el archivo de configuración inicial con <F3>
@@ -57,8 +57,6 @@ tnoremap <silent> <F8> <C-\><C-n>:FloatermKill<CR>
 
 " copia la ruta general del archivo abierto con <F10>
 nnoremap <F10>kp :let @*=expand("%")<CR>
-" eliminar todos los espacios en blanco que tenga el archivo
-nnoremap <Leader>sp :%s/\s\+$//e<CR>
 
 " modo goyo sin distracciones
 nmap <F11> :Goyo<CR>
