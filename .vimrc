@@ -1,13 +1,6 @@
-"*----------- Configuración [.vimrc] 29/Marzo/2022 11:29a.m COL -----------*
- 
-							"██╗███╗░░██╗██╗████████╗░░░██╗░░░██╗██╗███╗░░░███╗
-							"██║████╗░██║██║╚══██╔══╝░░░██║░░░██║██║████╗░████║
-							"██║██╔██╗██║██║░░░██║░░░░░░╚██╗░██╔╝██║██╔████╔██║
-							"██║██║╚████║██║░░░██║░░░░░░░╚████╔╝░██║██║╚██╔╝██║
-							"██║██║░╚███║██║░░░██║░░░██╗░░╚██╔╝░░██║██║░╚═╝░██║ 
-							"╚═╝╚═╝░░╚══╝╚═╝░░░╚═╝░░░╚═╝░░░╚═╝░░░╚═╝╚═╝░░░░░╚═╝
-									 " Configurado por >> Josué Romero
-									 " Twitter >> https://twitter.com/josueromr
+"*----------- Configuración [.vimrc] 31/Marzo/2022 11:29a.m COL -----------* 
+" Configurado por >> Josué Romero
+" Twitter >> https://twitter.com/josueromr
 
 " Importo los archivos de configuración
 so ~/config-vim/.vim/plugins-config.vim
