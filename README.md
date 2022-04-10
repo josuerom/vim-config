@@ -114,6 +114,8 @@ Y ya con esto habrías terminado todo, añado captura de pantalla:
 ```correo
 josueromram@outlook.es
 ```
+## Estimado saludo, esta guía esta incompleta, cuándo tenga más tiempo la completo.
+
 <p align="center" width="0">
    <img align="center" width="45" src="https://github.com/josuerom/vim-config/blob/main/.vim/screenshot/neovim-mark-flat.png">
 </p> 
