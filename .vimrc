@@ -3,9 +3,9 @@
 " Twitter >> https://twitter.com/josueromr
 
 " importo los archivos de configuración global
-so ~/.vim/plugins-config.vim
-so ~/.vim/plugins.vim
-so ~/.vim/maps.vim
+so ~/vim-config/.vim/plugins-config.vim
+so ~/vim-config/.vim/plugins.vim
+so ~/vim-config/.vim/maps.vim
 
 filetype plugin indent on
 syntax enable
