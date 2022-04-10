@@ -2,10 +2,10 @@
 " Configurado por >> Josué Romero
 " Twitter >> https://twitter.com/josueromr
 
-" Importo los archivos de configuración
-so ~/config-vim/.vim/plugins-config.vim
-so ~/config-vim/.vim/plugins.vim
-so ~/config-vim/.vim/maps.vim
+" importo los archivos de configuración global
+so ~/.vim/plugins-config.vim
+so ~/.vim/plugins.vim
+so ~/.vim/maps.vim
 
 filetype plugin indent on
 syntax enable
@@ -31,7 +31,7 @@ set splitbelow
 set confirm
 set diffopt+=vertical
 
-" COC
+" seteo para COC
 set encoding=utf-8
 set fileencoding=utf-8
 set fileencodings=utf-8
@@ -42,7 +42,7 @@ set cmdheight=2
 set updatetime=100
 set shortmess+=c
 
-" ajustes para el tema gruvbox
+" ajustes para el tema
 let g:gruvbox_italic=1
 let g:gruvbox_contrast_dark="medium"
 let no_buffers_menu=1
