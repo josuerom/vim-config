@@ -30,7 +30,7 @@ let g:lightline = {
 let g:coc_global_extensions = ['coc-snippets', 'coc-tsserver', 'coc-java']
 
 " configuración de ultisnips
-let g:UltiSnipsSnippetDirectories=[$HOME.'/config-vim/UltiSnips']
+let g:UltiSnipsSnippetDirectories=[$HOME.'/vim-config/UltiSnips']
 let g:UltiSnipsExpandTrigger="<tab>"
 let g:UltiSnipsJumpForwardTrigger="<tab>"
 let g:UltiSnipsJumpBackwardTrigger="<c-b>"
@@ -67,7 +67,6 @@ let g:floaterm_keymap_next = '<F6>'
 let g:floaterm_keymap_prev = '<F7>'
 let g:floaterm_keymap_kill = '<F8>'
 
-
 " Cursor up search in FZF(Line Fuzzy Finder)
 let $FZF_DEFAULT_OPTS='--layout=reverse'
 
@@ -87,8 +86,8 @@ function! OpenTerminal()
   else
     " se abrirá la terminal cmd, pero si usted utiliza otra terminal, debes
     " poner el nombre del .exe o ejecutable ya sea: 'cmd, zsh, bash, iTerm', quedando la
-    " línea (81) así: execute 'sp term://zsh'
-    execute "sp term://cmd"
+    " línea (81) así: execute 'sp term://bash'
+    execute "sp term://zsh"
     " apagar números
     execute "set nonu"
     execute "set nornu"
