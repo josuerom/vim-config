@@ -1,0 +1,59 @@
+{
+  // Javascript and TypeScript
+  "typescript.autoClosingTags": true,
+  "javascript.autoClosingTags": true,
+
+  // Css
+  "css.validate": false,
+  "less.validate": false,
+  "scss.validate": false,
+  "wxss.validate": false,
+
+  // Tabnine
+  "tabnine.shortcut": "TabNine",
+  "tabnine.priority": 1,
+
+  // Snippets
+  "snippets.priority": 1,
+  "snippets.extends": {
+    "cpp": ["c"],
+    "javascriptreact": ["javascript"],
+    "typescript": ["javascript"]
+  },
+
+  "snippets.ultisnips.directories": [
+    "UltiSnips",
+    "~/.vim/UltiSnips"
+  ],
+  "snippets.author": "Josué Romero",
+  "snippets.ultisnips.enable": false,
+  "snippets.ultisnips.usePythonx": false,
+  "java.configuration.runtimes": [
+    {
+      "name": "JavaSE-1.11",
+      "path": "/path/to/jdk-11",
+      "default": true
+    }
+  ],
+
+  "suggest.highPrioritySourceLimit": 10,
+  "suggest.languageSourcePriority": 95,
+  "suggest.lowPrioritySourceLimit": 90,
+  "coc.source.file.priority": 60,
+  "coc.source.buffer.priority": 50,
+  "yank.priority": 10,
+  "suggest.triggerCompletionWait": 30,
+
+  "suggest.autoTrigger": "always",
+  "suggest.localityBonus": true,
+  "suggest.fixInsertedWord": true,
+  "suggest.enablePreselect": true,
+  "suggest.removeDuplicateItems": true,
+  "suggest.preferCompleteThanJumpPlaceholder": true,
+  "suggest.defaultSortMethod": "alphabetical",
+  "suggest.numberSelect": false,
+  "suggest.triggerAfterInsertEnter": false,
+  "suggest.detailField": "menu",
+  "suggest.keepCompleteopt": false,
+  "suggest.noselect": false
+}
