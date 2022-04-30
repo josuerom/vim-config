@@ -1,6 +1,13 @@
 "*----------- Configuración [.vimrc] 31/Marzo/2022 11:29a.m COL -----------* 
-" Creador >> Josué Romero
-" Twitter >> https://twitter.com/josueromr
+                                                               "██╗   ██╗██╗███╗   ███╗██████╗  ██████╗
+                                                               "██║   ██║██║████╗ ████║██╔══██╗██╔════╝
+                                                               "██║   ██║██║██╔████╔██║██████╔╝██║     
+                                                               "╚██╗ ██╔╝██║██║╚██╔╝██║██╔══██╗██║
+                                                             "██╗╚████╔╝ ██║██║ ╚═╝ ██║██║  ██║╚██████╗
+                                                              "═╝ ╚═══╝  ╚═╝╚═╝     ╚═╝╚═╝  ╚═╝ ╚═════╝
+
+                                                                              " Creador >> Josué Romero
+                                                                              " Twitter >> https://twitter.com/josueromr
 
 
 filetype plugin indent on
